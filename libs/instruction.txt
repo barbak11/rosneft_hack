@@ -1,0 +1,9 @@
+1) python 3.10, необходимо скачать с сайта https://www.python.org/downloads/release/python-3100/ . При установке необходимо удостовериться, что путь к этой версии python есть в переменной PATH (в Windows)
+2) poetry, инструкция по установке находиться по ссылке https://python-poetry.org/docs/#installing-with-the-official-installer
+3) в консоли открыть корневую папку решения и прописать команды:
+poetry install
+poetry run jupyter notebook
+4) должно открыться новое окно в браузере с jupyter notebook, если не открылось, то найти в консоли ссылку (содержит localhost:8888)
+5) в окне браузера перейти в папку Code и открыть notebook.ipynb
+6) готово, вы молодцы!
+notebook.ipynb содержит весь код решения
